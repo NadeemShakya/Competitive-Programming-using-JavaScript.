@@ -21,7 +21,7 @@ let smallestSecond = [];
 let number1, number2;
 // Extract all elements from first diagonal and place in 'smallestFirst' array.
 ```
-* The first diagonal are the elements correspoding to the array indices of [0][0], [1][1] etc. , i.e. where firstIndex == secondIndex. So, 
+* The first diagonal are the elements correspoding to the array indices of [0][0], [1][1] etc. <br/> i.e. where firstIndex == secondIndex. So
 
 ```javascript
 // Extract all elements from first diagonal and place in 'smallestFirst' array.
@@ -43,3 +43,13 @@ for(let i = 0; i < arr.length; i++) {
 }
 ```
 
+* Now the 'smallestFirst' array consists of the first diagonal elements & 'smallestSecond' array consists of second diagonal elements.
+
+```javascript
+// smallestFirst = [22, 9, 3];
+// smallestSecond = [1, 9, 12];
+```
+
+* Extract the smallest element from 'smallestFirst' and 'smallestSecond' arrays and store them in 'number1' and 'number2' variables respectively.
+<br/>
+<i>Here I've used array destructuring ES6 syntax. If you're not familiar with array destructuring, learn it from here: </i>
