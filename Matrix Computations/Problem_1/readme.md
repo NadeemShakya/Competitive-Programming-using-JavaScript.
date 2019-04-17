@@ -68,3 +68,5 @@ number2 = Math.min(...smallestSecond);
 // Output the multiplication of two smallest numbers.
 console.log("The required output is: " + number1 * number2);
 ```
+
+### View the working code here: https://jsbin.com/sogewot/2/edit?js,console
