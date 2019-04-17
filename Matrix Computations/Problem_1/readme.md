@@ -66,5 +66,5 @@ number2 = Math.min(...smallestSecond);
 
 ```javascript
 // Output the multiplication of two smallest numbers.
-console.log("The required output is": number1 * number2);
+console.log("The required output is: " + number1 * number2);
 ```
