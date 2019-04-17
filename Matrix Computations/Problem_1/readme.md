@@ -52,4 +52,18 @@ for(let i = 0; i < arr.length; i++) {
 
 * Extract the smallest element from 'smallestFirst' and 'smallestSecond' arrays and store them in 'number1' and 'number2' variables respectively.
 <br/>
-<i>Here I've used array destructuring ES6 syntax. If you're not familiar with array destructuring, learn it from here: </i>
+<i>Here I've used spread syntax ES6 syntax. If you're not familiar with spread syntax, learn it from here: [Spread Syntax in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) </i>
+
+```javascript
+// Smallest number from first diagonal.
+number1 = Math.min(...smallestFirst);
+// Smallest number from second diagonal.
+number2 = Math.min(...smallestSecond);
+```
+
+* Finally, output the multiplication of the two numbers.
+
+```javascript
+// Output the multiplication of two smallest numbers.
+console.log("The required output is": number1 * number2);
+```
