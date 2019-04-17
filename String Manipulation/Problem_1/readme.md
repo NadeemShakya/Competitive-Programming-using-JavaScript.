@@ -86,3 +86,5 @@ checker("precious");
 Outputs: "The word precious doesn't has vowels in order."
 
 ```
+
+<b>View the working code here: <https://jsbin.com/keparos/edit?js,console></b>
