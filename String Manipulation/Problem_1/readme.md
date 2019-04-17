@@ -48,7 +48,33 @@ If it's a vowel , then add it to the 'tempArray' array.
         console.log("The word " + word + " doesn't has vowels in order.");
     }
 ```
+* Our final code looks like this: 
+```javascript
 
+// Initialize an empty array.
+let tempArray = [];
+// The main funtion.
+function checker(word) {
+    // iterate through the letters to check if it's a vowel or not.
+    // if a vowel, then add it to the tempArray array.
+    for(let i = 0; i < word.length; i++) {
+        if(word[i] === 'a' || word[i] === 'e' || word[i] === 'i' || word[i] === 'o' || word[i] === 'u') {
+            tempArray.push(word[i]);
+        }
+    }
+    // join the array elements to form a word.
+    let wordSequence = tempArray.join("");
+    // check if the wordSequence matches the vowel order 'aeiou'
+    if(wordSequence === "aeiou") {
+        console.log("The word " + word + " has vowels in order.");
+    }else {
+        console.log("The word " + word + " doesn't has vowels in order.");
+    }
+}
+// calling functions
+checker("facetious");
+checker("precious");
+```
 * Let's call and check our function:
 
 
