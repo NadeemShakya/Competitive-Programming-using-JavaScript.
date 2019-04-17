@@ -52,7 +52,8 @@ for(let i = 0; i < arr.length; i++) {
 
 * Extract the smallest element from 'smallestFirst' and 'smallestSecond' arrays and store them in 'number1' and 'number2' variables respectively.
 <br/>
-<i>Here I've used spread syntax ES6 syntax. If you're not familiar with spread syntax, learn it from here: [Spread Syntax in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) </i>
+<i>Here I've used spread syntax ES6 syntax. If you're not familiar with spread syntax, learn it from here: <br/>
+    [Spread Syntax in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) </i>
 
 ```javascript
 // Smallest number from first diagonal.
