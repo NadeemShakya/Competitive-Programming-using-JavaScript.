@@ -27,11 +27,10 @@ let largestNumber;
 <br/>
 <i>Here I've used spread syntax ES6 syntax. If you're not familiar with spread syntax, learn it from here: <br/>
 [Spread Syntax in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) </i>
+
 ```javascript
-/*
-Compute largest elements from each row of the matrix
-and store them in the 'tempMat' array.
-*/
+// Compute largest elements from each row of the matrix and store them in the 'tempMat' array.
+
 for(let i = 0; i < mat.length; i++) {
     let temp = Math.max(...mat[i]);
     tempMat.push(temp);
