@@ -32,7 +32,7 @@ If it's a vowel , then add it to the 'tempArray' array.
 ```
 
 * Now, join these elements of the 'tempArray' array to a single word using Array.prototype.join() method.
-<b/><i>If you're unfamiliar about <b>Array.prototype.join()</b>, learn it from here:  </i> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join>
+<b><i>If you're unfamiliar about <b>Array.prototype.join()</b>, learn it from here:  </i> <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join>
 
 ```javascript
     // store the word into a variable named 'wordSequence'
