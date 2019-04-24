@@ -36,3 +36,11 @@ function isValidNumber() {
     }
 }
 ```
+* Now, testing our function with user inputs: 
+  ```javascript
+    isValidNumber('9779843203311');
+    // Output: 9779843203311 is a valid Nepali Mobile Number.
+
+    isValidNumber('9789843203311');
+    // Output: 9789843203311 is an invalid Nepali Mobile Number
+  ```
