@@ -44,3 +44,4 @@ function isValidNumber() {
     isValidNumber('9789843203311');
     // Output: 9789843203311 is an invalid Nepali Mobile Number
   ```
+<b>View the working code here: <https://jsbin.com/wiqohal/edit?js,console> </b>
