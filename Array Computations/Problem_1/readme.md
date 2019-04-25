@@ -70,5 +70,6 @@ function reverser(tempArray) {
 
 let reversedArray = reverser([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 console.log(`The reversed array is [${reversedArray}]`);
-
+// Output: The reversed array is [9,8,7,6,5,4,3,2,1]
 ```
+<b>View the working code and play around with it here: <https://jsbin.com/pihiwub/edit?js,console></b>
