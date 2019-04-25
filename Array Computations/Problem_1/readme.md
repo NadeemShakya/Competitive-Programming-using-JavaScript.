@@ -32,3 +32,43 @@ let elem1 = i;
 let elem2 = (n - 1) - i; 
 // (Not elem2 = (n) - i, because array index starts from 0.)
 ```
+
+* To make the loop more efficient, we might want to use a flagger as:
+
+```javascript
+if(elem1 <= elem2) {
+  // swap the elements.
+     [tempArray[elem2], tempArray[elem1]] = [tempArray[elem1], tempArray[elem2]];
+}else if(elem1 > elem2) {
+  // all elements have been swapped, so stop and return the loop.
+      return tempArray;
+}
+```
+<i>Here I've used Array Destructuring ES6 syntax. If you're not familiar with this syntax, learn it from here: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment></i>
+
+* The complete code upto now looks like this:
+
+```javascript
+function reverser(tempArray) {
+    let n = tempArray.length;
+    for(let i = 0; i < n; i++) {
+        let elem1 = i;
+        let elem2 = (n - 1) - i;
+        if(elem1 <= elem2) {
+            [tempArray[elem2], tempArray[elem1]] = [tempArray[elem1], tempArray[elem2]];
+        }else {
+            return tempArray;
+        }
+    }
+}
+
+```
+
+* Let's call our function.
+
+```javascript
+
+let reversedArray = reverser([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+console.log(`The reversed array is [${reversedArray}]`);
+
+```
