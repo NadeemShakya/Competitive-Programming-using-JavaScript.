@@ -17,7 +17,8 @@ function reverser() {
 ```
 
 * The sorting can be done in multiple ways. The way I'll be using is an effective way, where we'll be using a single loop. <br/>
-  If 'n' be the length of the array which we want to reverse, then we can swap the elements in the following pattern:
-  ** Swap 'First' & 'Last' element
-  *** Swap 'Second' & 'Second Last' element. 
+  If 'n' be the length of the array which we want to reverse, then we can swap the elements in the following pattern:<br/>
+  
+  1) Swap 'First' & 'Last' element <br/>
+  2) Swap 'Second' & 'Second Last' element. 
 And so on...
