@@ -17,8 +17,15 @@ function reverser() {
 ```
 
 * The sorting can be done in multiple ways. The way I'll be using is an effective way, where we'll be using a single loop. <br/>
-  If 'n' be the length of the array which we want to reverse, then we can swap the elements in the following pattern:<br/>
+  If 'n' be the length of the array which we want to reverse, then we can swap the two elements in the following pattern:<br/>
   
   1) Swap 'First' & 'Last' element <br/>
   2) Swap 'Second' & 'Second Last' element. 
-And so on...
+And so on... <br>
+If we look at this pattern, we can get these two elements as: 
+```javascript
+    // 'i' is the loop counter starting from 0 to n - 1.
+    let elem1 = i;
+    let elem2 = (n - 1) - i; 
+    // (Not elem2 = (n) - i, because array index starts from 0.)
+```
